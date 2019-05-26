@@ -175,10 +175,10 @@ IPv4 Setting 탭에서 `Method`를 `Manual`로 설정하고, Address 정보를 �
 
 하기 동영상 참고
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_V0hKTDDfsI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[CentOS7 Storage Setup](https://www.youtube.com/watch?v=_V0hKTDDfsI)
 
 Inatallation Destination을 선택. `Disk Selection`에서 **SSD만** 선택. 선택 후
-`Other Storage Option`에서 **`I will configure partitioning.`**을 반드시 선택.
+`Other Storage Option`에서 `I will configure partitioning.`을 **반드시** 선택.
 
 우선, 기존에 할당된 모든 Partition들을 모두 삭제함. 이후 `Create New Partition`
 을 `LVM`에서 `Standard Partition`으로 변경하고
