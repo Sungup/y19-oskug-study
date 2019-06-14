@@ -1,0 +1,8 @@
+@startuml "01.KollaLayeredImage"
+
+"OS Image" <|- "OS Binary Image"
+"OS Binary Image" <|-- "OpenStack Base on Binary"
+"OpenStack Base on Binary" <|-- "Component Base Image"
+"Component Base Image" <|- "Configured Component Image"
+
+@enduml
